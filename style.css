@@ -114,3 +114,12 @@ table{
 th{
     text-align: left;
 }
+
+@media screen and (max-width: 600px){
+    .menu{
+        display: block;
+        text-align: center;
+        padding: 1px;
+
+    }
+}
