@@ -1,0 +1,102 @@
+
+
+body, ul, li , p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-align: center;
+    background-color: rgb(35, 35, 63);
+}
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    border-style: double;
+}
+.img1{
+    width: 900px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1750px;
+    margin: 0 auto;
+    border-style: solid;
+}
+
+.flex > div{
+    flex: 1 1 600px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .menu{
+        display: block;
+        text-align: center;
+        padding: 1px;
+
+    }
+    .flex{
+        padding: 1px;
+        border-style: none;
+    }
+}
+
+@media screen and (max-width: 1645px) {
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+        border-style: solid;
+    }
+    
+    .flex > div{
+        flex: 1 1 300px;
+        margin: 10px;
+    }
+    
+}
+
+body{
+    background-color: rgba(0, 0, 23, 0.959);
+    color: white;
+}
