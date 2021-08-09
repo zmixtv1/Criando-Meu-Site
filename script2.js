@@ -1,4 +1,4 @@
-var c = document.getElementById("certificados")
+var c = document.getElementById("principal")
 var d = document.getElementById("contato")
 c.addEventListener("mouseenter", entrar2)
 c.addEventListener("mouseout", sair2)
