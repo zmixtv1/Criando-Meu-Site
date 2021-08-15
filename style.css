@@ -67,6 +67,7 @@ h1{
     border-style: double;
     border-radius: 15px;
     border-width: 4px;
+    border-color: rgb(0, 141, 141);
 }
 h2{
     text-align: center;
@@ -76,6 +77,7 @@ article{
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5rem;
+    border-color: rgb(0, 141, 141);
 }
 
 
@@ -85,19 +87,17 @@ img{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .sobre{
     display: flex;
     background-color: rgb(0, 0, 30);
     color: white;
-    border-color: antiquewhite;
 }
 
 img{
     border-radius: 50px;
     border-style: double;
-    color: antiquewhite;
+    color: rgb(0, 141, 141);
     width: 25%; 
 }
 
