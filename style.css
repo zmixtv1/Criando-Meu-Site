@@ -128,6 +128,21 @@ th{
         display: block;
         text-align: center;
         padding: 1px;
-
     }
+    footer{
+        height: 180px;
+    }
+
+}
+
+footer{
+    background-color: #00006B;
+    width: 100%;
+    display: flex;
+}
+
+.fim{
+    color: #ffffff;
+    text-align: center;
+    height: 110px;
 }
