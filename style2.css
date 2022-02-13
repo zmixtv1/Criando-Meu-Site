@@ -87,6 +87,7 @@ img{
         max-width: 800px;
         margin: 0 auto;
         border-style: solid;
+        margin-bottom: 20px;
     }
     
     .flex > div{
