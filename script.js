@@ -38,3 +38,9 @@ function sair3(){
     d.style.background = "none"
     d.style.color = "white"
 }
+
+let dataAtual = new Date();
+let anoAtual = dataAtual.getFullYear();
+let idadeAtual = anoAtual - 2002;
+let descricao = document.getElementById("descricao");
+descricao.innerHTML = `Brasileiro, Solteiro, ${idadeAtual} anos`;
