@@ -39,8 +39,25 @@ function sair3(){
     d.style.color = "white"
 }
 
+//  calculo da idade
+
+let dataNascimento = new Date('2002-03-24');  // Criar um objeto Date com a data de nascimento
 let dataAtual = new Date();
+
 let anoAtual = dataAtual.getFullYear();
-let idadeAtual = anoAtual - 2002;
+let mesAtual = dataAtual.getMonth() + 1;  // Adicionando 1, pois os meses em JavaScript são indexados de 0 a 11
+let diaAtual = dataAtual.getDate();
+
+let anoNascimento = dataNascimento.getFullYear();
+let mesNascimento = dataNascimento.getMonth() + 1;  // Adicionando 1, pois os meses em JavaScript são indexados de 0 a 11
+let diaNascimento = dataNascimento.getDate();
+
+let idadeAtual = anoAtual - anoNascimento;
+
+// Verificar se a data de nascimento já ocorreu este ano
+if (mesAtual < mesNascimento || (mesAtual === mesNascimento && diaAtual < diaNascimento)) {
+    idadeAtual--;
+}
+
 let descricao = document.getElementById("descricao");
 descricao.innerHTML = `Brasileiro, Solteiro, ${idadeAtual} anos`;
